@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'comic';
+    src: url('/Fonts/bad.TTF');
+}
+
+.center{
+    @apply  items-center flex 
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
