@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 import { HoverImageLinks } from './HoverImageLinks'
 import Footer from './Footer'
 const Home = () => {
-  const COLORS = ['#FF5B88', '#FFC03E', '#86D3FF']
+  const COLORS = ['#FF0000','#FFA500','#FFFFFF','#008000']
   const color =useMotionValue(COLORS[0])
   const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0% ,#020617,70%,${color})`
   useEffect(()=>{
